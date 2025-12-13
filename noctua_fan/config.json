@@ -1,0 +1,16 @@
+{
+  "name": "Noctua Silent Fan Daemon",
+  "version": "1.0",
+  "slug": "noctua_silent_fan",
+  "description": "Ventilateur Noctua silencieux - daemon Python + pigpio",
+  "arch": ["aarch64", "armv7"],
+  "startup": "services",
+  "boot": "auto",
+  "init": false,
+  "options": {},
+  "schema": {},
+  "ports": {},
+  "ports_description": {},
+  "map": ["config:rw"],
+  "homeassistant": "2024.0.0"
+}
