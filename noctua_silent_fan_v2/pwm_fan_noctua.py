@@ -7,7 +7,7 @@ from datetime import datetime
 
 GPIO_PIN = 18
 FREQUENCY = 25000
-STATE_FILE = "/config/fan_state.json"
+STATE_FILE = "/data/fan_state.json"
 
 T_MIN = 45
 T_START = 50
