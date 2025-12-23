@@ -1,6 +1,6 @@
 {
   "name": "Noctua Silent Fan Daemon",
-  "version": "1.1",
+  "version": "1.2",
   "slug": "noctua_silent_fan_v2",
   "description": "Ventilateur Noctua silencieux - daemon Python + pigpio",
   "arch": ["aarch64", "armv7"],
