@@ -1,7 +1,9 @@
-#!/usr/bin/with-contenv sh
+#!/usr/bin/with-contenv bashio
 set -e
 
-pigpiod
+# Lancement de pigpiod en mode "nodaemon" pour qu'il ne bloque pas le script
+pigpiod -g
 sleep 2
 
+# Lancement de votre script Python
 python3 /pwm_fan_noctua.py
